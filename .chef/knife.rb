@@ -7,5 +7,6 @@ node_name                "mutual-brains"
 client_key               "#{current_dir}/mutual-brains.pem"
 validation_client_name   "mutual-validator"
 validation_key           "#{current_dir}/mutual-validator.pem"
+validation_key_path	"/var/cache/chef"
 chef_server_url          "https://api.chef.io/organizations/mutual"
 cookbook_path            ["#{current_dir}/../cookbooks"]
